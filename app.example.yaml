@@ -1,0 +1,16 @@
+runtime: nodejs10
+env_variables:
+  # memcache
+  MEMCACHE_URL: localhost:11211
+  MEMCACHE_USERNAME:
+  MEMCACHE_PASSWORD:
+
+  # delve
+  DELVE_USERNAME: user@host.com
+  DELVE_PASSWORD: password
+
+  # fronter
+  FRONTER_ENDPOINT: https://fronter.com/test
+
+  # sharepoint
+  SHAREPOINT_ENDPOINT: test.sharepoint.com
